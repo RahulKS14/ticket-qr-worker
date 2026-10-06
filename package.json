@@ -1,0 +1,19 @@
+{
+  "name": "ticket-qr-worker",
+  "version": "1.0.0",
+  "description": "Ticket QR Code Generator Worker – Capstone 1",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/user-event": "^14.5.2",
+    "@vitest/coverage-v8": "^1.6.0",
+    "jsdom": "^24.1.0",
+    "vitest": "^1.6.0"
+  }
+}
