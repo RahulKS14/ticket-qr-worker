@@ -1,5 +1,9 @@
 # Ticket QR Code Generator Worker
 
+**Live Demo:** https://ticket-qr-worker.vercel.app/
+
+---
+
 A web-based Ticket QR Code Generator Worker that allows users to enter ticket and attendee details, validate the input, generate a ticket with a QR code, and display the generated ticket information.
 
 ## Features
@@ -46,7 +50,7 @@ Generated ticket data also supports:
 - Vitest
 - Custom test runner
 - QR Code API
-- Vercel for deployment
+- Vercel
 
 ## Project Structure
 
@@ -84,5 +88,6 @@ ticket-qr-worker/
 ├── index.htm
 ├── package.json
 ├── PROMPTS.md
+├── README.md
 ├── runner.cjs
 └── vitest.config.js
